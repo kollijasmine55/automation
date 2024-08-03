@@ -1,0 +1,17 @@
+Explanation of the Script:
+-------------------------
+Setup WebDriver: Initializes ChromeDriver using webdriver_manager.
+Navigate to Homepage: Opens the FitPeo website and clicks on the link to the Revenue Calculator page.
+Scroll and Interact with Slider: Scrolls to the slider section and adjusts the slider value to 820.
+Update and Validate Text Field: Changes the text field value to 560 and validates the slider updates accordingly.
+Select CPT Codes: Checks the required CPT code checkboxes.
+Validate Reimbursement: Confirms that the total recurring reimbursement value matches $110700.
+Cleanup: Closes the browser after a brief delay.
+Setup and Run the Script:
+-----------------------------
+Install Dependencies: Run pip install selenium webdriver-manager to install required packages.
+Download WebDriver: Ensure the WebDriver (e.g., chromedriver) is compatible with your browser version.
+Run the Script: Save the script to a .py file and execute it using python script_name.py.
+Testing and Maintenance
+Test Thoroughly: Run the script in different scenarios to ensure robustness.
+Maintainability: Keep the script updated with any changes to the website structure or functionality.
